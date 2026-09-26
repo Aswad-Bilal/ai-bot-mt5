@@ -1,0 +1,7 @@
+"""Requirements for the MT5-ready semi-auto desktop app."""
+
+pandas>=2.1
+numpy>=1.26
+
+# MetaTrader5 is Windows-only and only used for live broker data.
+MetaTrader5>=5.0.29; platform_system == "Windows"
